@@ -14,7 +14,7 @@ public class Rectangle : IFigure
         Height = height;
     }
     /// <summary>
-    /// Width * Height
+    /// Считает площадь по формуле Width * Height
     /// </summary>
     /// <returns>Возвращает площадь прямоугольника</returns>
     public double CalculateArea()

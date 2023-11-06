@@ -20,7 +20,7 @@ public class Triangle : IFigure
     }
 
     /// <summary>
-    /// Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC), где s - полупериметр
+    ///  Считает площадь по формуле Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC), где s - полупериметр
     /// </summary>
     /// <returns>Возвращает площадь треугольника</returns>
     public double CalculateArea()

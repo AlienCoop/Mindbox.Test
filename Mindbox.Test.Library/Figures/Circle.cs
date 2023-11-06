@@ -11,7 +11,7 @@ public class Circle : IFigure
         Radius = radius;
     }
     /// <summary>
-    /// PI * Radius * Radius
+    ///  Считает площадь по формуле PI * Radius * Radius
     /// </summary>
     /// <returns>Возвращает площадь круга</returns>
     public double CalculateArea()
