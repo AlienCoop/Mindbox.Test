@@ -10,7 +10,10 @@ public class Circle : IFigure
             throw new ArgumentException("Радиус круга должен быть положительным числом.", nameof(radius));
         Radius = radius;
     }
-
+    /// <summary>
+    /// PI * Radius * Radius
+    /// </summary>
+    /// <returns>Возвращает площадь круга</returns>
     public double CalculateArea()
     {
         return Math.PI * Radius * Radius;

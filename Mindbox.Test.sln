@@ -5,9 +5,7 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mindbox.Test.Library", "Mindbox.Test.Library\Mindbox.Test.Library.csproj", "{6137DDEF-DF07-481E-B1FC-AA4B39F8001C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{709BE0D2-6205-40C6-AC81-27297EF22E69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.Test.Tests", "Mindbox.Test.Tests\Mindbox.Test.Tests.csproj", "{17642E92-CEAA-4F52-8F54-E5CFD4E4B556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mindbox.Test.Tests", "Mindbox.Test.Tests\Mindbox.Test.Tests.csproj", "{17642E92-CEAA-4F52-8F54-E5CFD4E4B556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{6137DDEF-DF07-481E-B1FC-AA4B39F8001C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6137DDEF-DF07-481E-B1FC-AA4B39F8001C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6137DDEF-DF07-481E-B1FC-AA4B39F8001C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{709BE0D2-6205-40C6-AC81-27297EF22E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{709BE0D2-6205-40C6-AC81-27297EF22E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{709BE0D2-6205-40C6-AC81-27297EF22E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{709BE0D2-6205-40C6-AC81-27297EF22E69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17642E92-CEAA-4F52-8F54-E5CFD4E4B556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{17642E92-CEAA-4F52-8F54-E5CFD4E4B556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17642E92-CEAA-4F52-8F54-E5CFD4E4B556}.Release|Any CPU.ActiveCfg = Release|Any CPU

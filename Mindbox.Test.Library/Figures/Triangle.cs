@@ -18,13 +18,21 @@ public class Triangle : IFigure
         SideB = sideB;
         SideC = sideC;
     }
-    
+
+    /// <summary>
+    /// Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC), где s - полупериметр
+    /// </summary>
+    /// <returns>Возвращает площадь треугольника</returns>
     public double CalculateArea()
     {
         double s = (SideA + SideB + SideC) / 2;
         return Math.Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC));
     }
 
+    /// <summary>
+    /// Определяет, является ли треугольник прямоугольным.
+    /// </summary>
+    /// <returns> Возвращает true, если треугольник является прямоугольным. false, если нет</returns>
     public bool IsRightTriangle()
     {
         return Math.Pow(SideA, 2) + Math.Pow(SideB, 2) == Math.Pow(SideC, 2) ||
